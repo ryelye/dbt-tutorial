@@ -3,12 +3,12 @@ Welcome to your new dbt project!
 ### Using the starter project
 
 Try running the following commands:
-- dbt run (run all models)
-- dbt test (run tests)
-- dbt debug (test connection)
-- dbt docs generate, dbt docs serve (generate documentation)
-- dbt seed (use static file data)
-- dbt deps (install packages in packages.yml)
+- dbt run                              (run all models)
+- dbt test                             (run tests)
+- dbt debug                            (test connection)
+- dbt docs generate, dbt docs serve    (generate documentation)
+- dbt seed                             (use static file data)
+- dbt deps                             (install packages in packages.yml)
 
 
 ### Resources:
