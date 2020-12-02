@@ -1,0 +1,10 @@
+version: 2  # has to be here
+
+sources:
+  - name: snowflake_sample_data  # how it's referred to throughout dbt
+    description: 'Sample database provided by Snowflake'
+    database: snowflake_sample_data
+    schema: TPCDS_SF10TCL
+    tables:
+      - name: store_sales
+        description: 'Details about store sales'

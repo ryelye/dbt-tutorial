@@ -1,0 +1,21 @@
+
+version: 2
+
+models:
+    - name: example__my_first_dbt_model
+      description: "A starter dbt model. T1"
+      columns:
+          - name: id
+            description: "The primary key for this table. Table1"
+            tests: # these tests only apply to the above columns
+                - unique
+                - not_null
+
+    - name: example__my_second_dbt_model
+      description: "A starter dbt model. T2"
+      columns:
+          - name: id
+            description: "The primary key for this table. Table2"
+            tests:
+                - unique
+                - not_null
